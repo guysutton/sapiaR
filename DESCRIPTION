@@ -1,0 +1,24 @@
+Package: sapiaR
+Title: Download and plot maps from the Southern African Plant Invaders Atlas (SAPIA)
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Guy Frederick",
+           family = "Sutton",
+           role = c("aut", "cre"),
+           email = "g.sutton@ru.ac.za")
+Description: This package allows users to download data and analyse data from the Southern African Plant Invaders Atlas (SAPIA). 
+             The primary function is to plot the characteristic distribution maps obtained from SAPIA, and calculate basic summary statistics. 
+Depends: R (>= 2.10)
+Imports: 
+    dplyr,
+    magrittr,
+    purrr,
+    tidyr,
+    ggplot2,
+    knitr,
+    rlang,
+    cowplot
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
